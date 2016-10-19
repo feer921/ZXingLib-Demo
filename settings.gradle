@@ -1,0 +1,3 @@
+include ':app', ':libzxing'
+include ':ZXing-Lib'
+project(':ZXing-Lib').projectDir = new File(rootProject.projectDir, '../ZXing-Lib')

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="viewfinder_style">
+        <item name="draw_left_right_corner">true</item>
+        <item name="draw_top_bottom_corner">true</item>
+        <item name="scaned_point_color">@color/scanner_point_color_default</item>
+        <item name="center_anim_line">@drawable/scanner_line</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- 取景框轮廓样式：定义取景框的尺寸大小、位置信息-->
+    <style name="viewfinder_outline_style">
+        <item name="viewfinder_width">1440</item>
+        <item name="viewfinder_height">440</item>
+        <item name="viewfinder_left">0</item>
+        <item name="viewfinder_top">150</item>
+        <item name="viewfinder_is_fullscreen">false</item>
+        <item name="scale_base_resolution">640</item>
+    </style>
+</resources>
