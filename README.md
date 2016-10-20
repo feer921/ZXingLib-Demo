@@ -1,2 +1,9 @@
 #ZXingLib-Demo
 基于二维码扫描框架ZXing的Demo项目
+#首先顶礼膜拜ZXing
+参见：https://github.com/zxing/zxing
+本Demo依赖封装好了两个库工程(两个库工程封装好了ZXing官方最新的3.3.0版本核心代码,也将持续跟进官方的更新)可运行。
+1、默认依赖的为作者自己封装的ZXing-Lib库工程，该库工程源码参见：
+https://github.com/feer921/ZXing-Lib
+2、本Demo项目里也把徐医生封装的ZXing库工程libzxing给添加进来了，但作者将最新的ZXing代码替换掉了libzxing原来较旧版本的代码，
+徐医生原项目膜拜地址：https://github.com/xuyisheng/ZXingLib
